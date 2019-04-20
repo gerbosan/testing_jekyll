@@ -22,6 +22,18 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: gerbosan
 github_username:  gerbosan
 
+# Adding permalinks
+permalink: pretty
+# permalink: /:categories/:year/:month/:day/:title
+
+links:
+  - title: about
+    url: /
+  - title: works
+    url: /work
+  - title: articles
+    url: /articles
+
 # Build settings
 markdown: kramdown
 # theme: minima
